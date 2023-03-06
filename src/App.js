@@ -1,13 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import { AboutSection } from './components/About/AboutSection';
+import logo from "./logo.svg";
+import "./App.css";
+import { Header } from "./components/About/header/Header";
+import { AboutSection } from "./components/About/AboutSection";
 
 function App(props) {
-  console.log("APP", props.data)
   return (
-    <AboutSection props = {props.data}>
-      
-    </AboutSection>
+    <>
+      <Header></Header>
+      <AboutSection props={props.data}></AboutSection>
+    </>
   );
 }
 

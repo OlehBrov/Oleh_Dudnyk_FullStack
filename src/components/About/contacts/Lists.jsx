@@ -3,12 +3,14 @@ export const Lists = (props) => {
     if (Object.keys(el).includes("contacts")) {
       return (
         <ul>
-              {Object.keys(el)}
-              {Object.keys(el.contacts).map((cont) => {
-                    console.log('index', cont)
-                    return <li>{cont}{" "}{el.contacts[cont]}</li>
-                })}
-        
+          {Object.keys(el)}
+          {Object.keys(el.contacts).map((cont) => {
+            return (
+              <li>
+                {cont} {el.contacts[cont]}
+              </li>
+            );
+          })}
         </ul>
       );
     }
@@ -32,17 +34,19 @@ export const Lists = (props) => {
         </ul>
       );
     }
-      if (Object.keys(el).includes("languages")) {
-        console.log('MMM', Object.keys(el.languages))
-        return (
-            <ul>
-                {Object.keys(el)}
-                {Object.keys(el.languages).map((lang) => {
-                    console.log('index', lang)
-                    return <li>{lang}{" "}{el.languages[lang]}</li>
-                })}
-    </ul>
-)
+    if (Object.keys(el).includes("languages")) {
+      return (
+        <ul>
+          {Object.keys(el)}
+          {Object.keys(el.languages).map((lang) => {
+            return (
+              <li>
+                {lang} {el.languages[lang]}
+              </li>
+            );
+          })}
+        </ul>
+      );
     }
   });
 };
