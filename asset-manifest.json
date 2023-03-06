@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Oleh_Dudnyk_FullStack/static/css/main.7acaea2f.css",
-    "main.js": "/Oleh_Dudnyk_FullStack/static/js/main.07d3183d.js",
-    "index.html": "/Oleh_Dudnyk_FullStack/index.html",
-    "main.7acaea2f.css.map": "/Oleh_Dudnyk_FullStack/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/Oleh_Dudnyk_FullStack/static/js/main.07d3183d.js.map"
+    "main.css": "/oleh_dudnyk_fullStack/static/css/main.7acaea2f.css",
+    "main.js": "/oleh_dudnyk_fullStack/static/js/main.07d3183d.js",
+    "index.html": "/oleh_dudnyk_fullStack/index.html",
+    "main.7acaea2f.css.map": "/oleh_dudnyk_fullStack/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/oleh_dudnyk_fullStack/static/js/main.07d3183d.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
