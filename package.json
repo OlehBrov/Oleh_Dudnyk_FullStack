@@ -2,7 +2,7 @@
   "name": "OlehBrov",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://OlehBrov.github.io/Oleh_Dudnyk_FullStack/",
+  "homepage": "https://OlehBrov.github.io/oleh_dudnyk_fullStack/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
