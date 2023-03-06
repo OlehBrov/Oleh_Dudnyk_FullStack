@@ -1,0 +1,38 @@
+[
+  {
+    "contacts": {
+      "phone": "+38 093 000 00 00",
+      "email": "name.surname@gmail.com",
+      "Linkedin": "https:",
+      "GitHub": "https://github.com/OlehBrov",
+      "nickname": "@OlehBrov"
+    }
+  },
+  {
+    "tech skills": [
+      "CSS3",
+      "HTML5",
+      "Saas",
+      "JavaScript",
+      "React Hooks & Components",
+      " React Redux",
+      "REST API",
+      "Node.js"
+    ]
+  },
+  {
+    "soft skills": [
+      "Team Work",
+      "Problem Solving",
+      "Strong Adaptation Skills",
+      "High Analytics Skills",
+      "Communicative"
+    ]
+  },
+  {
+    "languages": {
+      "ukrainian": "native",
+      "english": "intermediate"
+    }
+  }
+]
